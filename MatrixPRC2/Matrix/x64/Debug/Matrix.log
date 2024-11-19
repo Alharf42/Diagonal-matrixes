@@ -1,0 +1,38 @@
+﻿  Main.cpp
+  SMatrix.cpp
+E:\PRC2\MatrixPRC2\Matrix\Ops.h(39,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Main.cpp')
+      E:\PRC2\MatrixPRC2\Matrix\Ops.h(39,41):
+      the template instantiation context (the oldest one first) is
+          E:\PRC2\MatrixPRC2\Matrix\Main.cpp(54,28):
+          see reference to function template instantiation 'matrix addition<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>,matrix::vec>(matrix,matrix,Ns)' being compiled
+          with
+          [
+              matrix=std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>,
+              Ns=matrix::vec
+          ]
+  
+E:\PRC2\MatrixPRC2\Matrix\Ops.h(39,29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+E:\PRC2\MatrixPRC2\Matrix\Ops.h(43,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+E:\PRC2\MatrixPRC2\Matrix\Ops.h(71,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Main.cpp')
+      E:\PRC2\MatrixPRC2\Matrix\Ops.h(71,42):
+      the template instantiation context (the oldest one first) is
+          E:\PRC2\MatrixPRC2\Matrix\Main.cpp(56,30):
+          see reference to function template instantiation 'matrix multiplyScalar<std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>,double,matrix::vec>(matrix,T,Ns)' being compiled
+          with
+          [
+              matrix=std::vector<std::vector<double,std::allocator<double>>,std::allocator<std::vector<double,std::allocator<double>>>>,
+              T=double,
+              Ns=matrix::vec
+          ]
+  
+E:\PRC2\MatrixPRC2\Matrix\Ops.h(71,29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Main.cpp')
+  
+  Generating Code...
+  Matrix.vcxproj -> E:\PRC2\MatrixPRC2\x64\Debug\Matrix.exe
